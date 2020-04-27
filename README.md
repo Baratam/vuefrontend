@@ -28,3 +28,12 @@ docker build -t subhu6xy6/dolphin:myVuejs .
 
 ## run your docker image
 docker run -it -p 8080:8080 --rm --name myVuejs1 subhu6xy6/dolphin:myVuejs
+
+## push tag to docker hub
+docker push subhu6xy6/dolphin:myVuejs
+
+## pull tag from docker hub
+docker pull subhu6xy6/dolphin:myVuejs
+
+## run the image after pull
+docker run -it -p 8080:8080 -rm --name myvuejs2 subhu6xy6/dolphin:myVuejs
