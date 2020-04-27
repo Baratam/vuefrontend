@@ -1,4 +1,4 @@
-# real-world-vue
+# vue js
 
 ## Project setup
 ```
